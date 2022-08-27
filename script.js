@@ -24,14 +24,15 @@ for (i = 9; i < 18; i++) {
 }
 // ? Runs when user clicks the save button
 function saveToLocal() {
-    var value = $(this).prev().val()
+    var value = $(this).prev().val();
+    var time = $(this).parent().attr("id");
     console.log(value)
-    localStorage.setItem(value, "savedInput");
+    localStorage.setItem(time, value);
 
 }
 
 function renderLastSaved() {
-    var userInput = localStorage.getItem(saved);
+    var userInput = localStorage.getItem(value);
     textAreaEl.textContent = userInput;
 }
 renderLastSaved();
