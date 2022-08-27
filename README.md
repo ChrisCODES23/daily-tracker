@@ -19,7 +19,7 @@
 
 Github link : https://github.com/ChrisCODES23/daily-tracker
 
-Live link:
+Live link: https://chriscodes23.github.io/daily-tracker/
 
 ## CREDITS
 
