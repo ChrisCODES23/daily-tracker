@@ -22,25 +22,23 @@ $(document).ready(function () {
     }
     // ? Runs when user clicks the save button
     $(".saveBtn").on("click", function () {
-        var text = $(this).siblings("textarea").val();
+        var text = $(this).siblings(".time-block").val();
         var time = $(this).parent().attr("id");
         localStorage.setItem(text, time);
 
     });
 
 
-    $("#hour9 textarea").val(localStorage.getItem("hour9"));
-    $("#hour10 textarea").val(localStorage.getItem("hour10"));
-    $("#hour11 textarea").val(localStorage.getItem("hour11"));
-    $("#hour12 textarea").val(localStorage.getItem("hour12"));
-    $("#hour13 textarea").val(localStorage.getItem("hour13"));
-    $("#hour14 textarea").val(localStorage.getItem("hour14"));
-    $("#hour15 textarea").val(localStorage.getItem("hour15"));
-    $("#hour16 textarea").val(localStorage.getItem("hour16"));
-    $("#hour17 textarea").val(localStorage.getItem("hour17"));
+    $("#hour9 .time-block").val(localStorage.getItem("hour9"));
+    $("#hour10 .time-block").val(localStorage.getItem("hour10"));
+    $("#hour11 .time-block").val(localStorage.getItem("hour11"));
+    $("#hour12 .time-block").val(localStorage.getItem("hour12"));
+    $("#hour13 .time-block").val(localStorage.getItem("hour13"));
+    $("#hour14 .time-block").val(localStorage.getItem("hour14"));
+    $("#hour15 .time-block").val(localStorage.getItem("hour15"));
+    $("#hour16 .time-block").val(localStorage.getItem("hour16"));
+    $("#hour17 .time-block").val(localStorage.getItem("hour17"));
 });
-
-
 
 
 
