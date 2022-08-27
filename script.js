@@ -29,15 +29,15 @@ $(document).ready(function () {
     });
 
 
-    $("#hour9 .textarea").val(localStorage.getItem("hour9"));
-    $("#hour10 .textarea").val(localStorage.getItem("hour10"));
-    $("#hour11 .textarea").val(localStorage.getItem("hour11"));
-    $("#hour12 .textarea").val(localStorage.getItem("hour12"));
-    $("#hour13 .textarea").val(localStorage.getItem("hour13"));
-    $("#hour14 .textarea").val(localStorage.getItem("hour14"));
-    $("#hour15 .textarea").val(localStorage.getItem("hour15"));
-    $("#hour16 .textarea").val(localStorage.getItem("hour16"));
-    $("#hour17 .textarea").val(localStorage.getItem("hour17"));
+    $("#hour9 textarea").val(localStorage.getItem("hour9"));
+    $("#hour10 textarea").val(localStorage.getItem("hour10"));
+    $("#hour11 textarea").val(localStorage.getItem("hour11"));
+    $("#hour12 textarea").val(localStorage.getItem("hour12"));
+    $("#hour13 textarea").val(localStorage.getItem("hour13"));
+    $("#hour14 textarea").val(localStorage.getItem("hour14"));
+    $("#hour15 textarea").val(localStorage.getItem("hour15"));
+    $("#hour16 textarea").val(localStorage.getItem("hour16"));
+    $("#hour17 textarea").val(localStorage.getItem("hour17"));
 });
 
 
@@ -45,23 +45,23 @@ $(document).ready(function () {
 
 
 
-    // function saveToLocal() {
-    //     var value = $(this).prev().val()
-    //     console.log(value)
-    //     localStorage.setItem(value, "savedInput");
-    //     var userInput = localStorage.getItem(value);
-    //     textAreaEl.textContent = userInput;
-    // }
+        // function saveToLocal() {
+        //     var value = $(this).prev().val()
+        //     console.log(value)
+        //     localStorage.setItem(value, "savedInput");
+        //     var userInput = localStorage.getItem(value);
+        //     textAreaEl.textContent = userInput;
+        // }
 
 
 
-//     function renderLastSaved() {
-//         var userInput = localStorage.getItem(saved);
-//         textAreaEl.textContent = userInput;
-//     }
-//     renderLastSaved();
+    //     function renderLastSaved() {
+    //         var userInput = localStorage.getItem(saved);
+    //         textAreaEl.textContent = userInput;
+    //     }
+    //     renderLastSaved();
 
-// })
+    // })
 
 
 
